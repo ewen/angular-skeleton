@@ -1,0 +1,12 @@
+{
+  "name": "angular-skeleton",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ewen/angular-skeleton",
+  "description": "A starting point for writing simple Angular apps.",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.0.2",
+    "jquery": "~2.0.3",
+    "angular": "~1.2.3"
+  }
+}
