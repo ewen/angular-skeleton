@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="angularSkeleton">
 <head>
 	<title>Angular Skeleton</title>
 
@@ -9,10 +9,20 @@
 
 	<link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body ng-controller="MainCtrl">
 	<div class="container">
 		<h1>Angular Skeleton <small>A starting point for writing simple Angular apps.</small></h1>
 		<hr>
+
+		<p class="lead">
+			<span ng-repeat="value in countdown" ng-class="{'text-primary':$last}">
+				{{value}}<span ng-if="! $last">...</span><span ng-if="$last">!</span>
+			</span>
+		</p>
 	</div>
+
+	<script src="assets/scripts/bootstrap.js" type="text/javascript"></script>
+	<script src="assets/scripts/controllers/MainCtrl.js" type="text/javascript"></script>
+
 </body>
 </html>
