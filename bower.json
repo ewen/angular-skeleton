@@ -5,8 +5,8 @@
   "description": "A starting point for writing simple Angular apps.",
   "private": true,
   "dependencies": {
-    "bootstrap": "~3.0.2",
-    "jquery": "~2.0.3",
-    "angular": "~1.2.3"
+    "bootstrap": "latest",
+    "jquery": "latest",
+    "angular": "latest"
   }
 }
